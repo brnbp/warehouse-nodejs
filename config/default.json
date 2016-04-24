@@ -1,0 +1,15 @@
+{
+  "mongo": {
+    "dev": {
+      "username": "",
+      "password": "",
+      "server": "localhost",
+      "port": 27017,
+      "database": "warehouse"
+    }
+  },
+  "basic-auth": {
+    "username": "admin",
+    "password": "admin"
+  }
+}
