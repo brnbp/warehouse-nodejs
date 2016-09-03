@@ -19,9 +19,7 @@ WarehouseController.prototype.store = function(request, response, next){
 WarehouseController.prototype.log = function(request, response, next){
   var body = request.body
   this.model.createAsync(body)
-      .then(function(err, data){
-        response.json(data)
-      })
+      .then((err, data) => response.json(data))
       .catch(next)
 }
 
